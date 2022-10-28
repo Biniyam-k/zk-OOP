@@ -77,6 +77,36 @@ This is basically called Abstraction in which the complex details are being hidd
 
 Similarly, in Object-oriented programming, abstraction is a process of providing functionality to the users by hiding its implementation details from them. In other words, the user will have just the knowledge of what an entity is doing instead of its internal working.
 
+## Encapsulation
+
+This is the concept that binds data together. Functions manipulate the info and keep it safe. No direct access is granted to the info in case it's hidden. If you wish to gain access to the info, you need to interact with the article in charge of the info.
+
+If you're employed in a company, chances are high that you've had experience with encapsulation.
+
+Think about a human resources department. The human resources staff members encapsulate (hide) the data about employees. They determine how this data will be used and manipulated. Any request for the worker data or request to update the info must be routed through them.
+
+By encapsulating data, you make the information of your system safer and more reliable. You're also able monitor how the information is being accessed and what operations are performed on it. This makes program maintenance easier and simplifies the debugging process.
+
+In other words, we can define it as Encapsulation is the wrapping up of data and functions (methods that operate on the data) into a single unit (called class).
+
+There is a prohibition for direct access to the data. Functions (that combine with the data) are the only way to access data. These functions are the member functions or methods in Java. It basically creates a shield due to which the code or data cannot be accessed outside the shield.
+
+If you want to read data items in an object, you call the member function in the object. It will read the data item from the function and return the value to you. You can’t access the data directly using the object. The data is hidden, so it is kept protected and safe from accidental alteration.
+
+
+## Polymorphism
+
+The word Polymorphism can be broken into two words – ‘poly’ means ‘many’ and ‘morph’ means ‘forms’. So, polymorphism means many forms.
+
+Polymorphism is the ability for a data or message to be processed in more than one form. It is a concept by which a single operation can be performed in multiple different ways.
+
+Polymorphism is the concept that allows an object of a class to behave differently in response to a message or action.
+
+This is the power of two different objects to reply to one form. The program will determine which usage is critical for every execution of the thing from the parent class which reduces code duplication. It also allows different kinds of objects to interact with the same interface.
+
+The virtue by which the same action can be performed by objects of different classes and each object responds in a different way depending on its class is called Polymorphism.
+
+
 
 
 
