@@ -38,9 +38,44 @@ These are functions that are defined inside a class that describe the behavior o
 ## Attributes 
 
 are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself
+ and represent the state of an object. Objects contain data stored in the attribute field.
 
 
 ![alt text](https://www.imaginarycloud.com/blog/content/images/2021/07/OOP_4p.png)
+
+## Inheritance
+
+Inheritance allows classes to inherit features of other classes. Put another way, parent classes extend attributes and behaviors to child classes. Inheritance supports reusability.
+
+If basic attributes and behaviors are defined in a parent class, child classes can be created extending the functionality of the parent class, and adding additional attributes and behaviors.
+
+Relationships and subclasses between objects can be assigned, enabling developers to reuse common logic while still maintaining a unique hierarchy. This property of OOP forces a more thorough data analysis, reduces development time and ensures a higher level of accuracy.
+
+The benefits of inheritance are programs can create a generic parent class, and then create more specific child classes as needed. This simplifies overall programming, because instead of recreating the structure of the Parent class multiple times, child classes automatically gain access to functionalities within their parent class.
+
+## Abstraction
+
+Abstraction means that the user interacts with only selected attributes and methods of an object. Abstraction uses simplified, high level tools, to access a complex object.
+
+    Using simple things to represent complexity
+    Hide complex details from user
+
+Abstraction is using simple classes to represent complexity. Abstraction is an extension of encapsulation. For example, you don’t have to know all the details of how the engine works to drive a car.
+
+A driver only uses a small selection of tools: like gas pedal, brake, steering wheel, blinker. The engineering is hidden from the driver. To make a car work, a lot of pieces have to work under the hood, but exposing that information to the driver would be a dangerous distraction
+
+
+A well-designed module hides all of its implementation details and cleanly separates its interface from its implementation. These modules then communicate with each other only through the interfaces. This concept is supported with the help of Abstraction in Java.
+
+The meaning of the word “Abstraction”, in general words, is the process of working with ideas rather than their implementation.
+
+For example, consider the example of an email, the user does not know about the complex details such as what happens just after sending an email, which protocol is used by the server to send the message.
+
+Therefore, we just need to mention the address of the receiver, type the content and click the send button.
+
+This is basically called Abstraction in which the complex details are being hidden from the users.
+
+Similarly, in Object-oriented programming, abstraction is a process of providing functionality to the users by hiding its implementation details from them. In other words, the user will have just the knowledge of what an entity is doing instead of its internal working.
 
 
 
