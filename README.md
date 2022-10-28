@@ -15,4 +15,24 @@ OOP focuses on the objects that developers want to manipulate rather than the lo
 ![alt text](https://www.freecodecamp.org/news/content/images/size/w1600/2022/09/OOP.png)
 
 
+## class 
+In a nutshell, classes are essentially user defined data types. Classes are where we create a blueprint for the structure of methods and attributes. Individual objects are instantiated, or created from this blueprint.
+
+A class is a blueprint or template of an object. It is a user-defined data type. Inside a class, we define variables, constants, member functions, and other functionality. it binds data and functions together in a single unit. It does not consume memory at run time.
+ - Note that classes are not considered as a data structure. It is a logical entity. It is the best example of data binding. 
+ - Note that a class can exist without an object but vice-versa is not possible.-
+
+
+## object
+
+These are instances of a class with specifically defined data. When a class is defined initially, the description is the only object that is defined.
+An object is a real-world entity that has attributes, behavior, and properties. It is referred to as an instance of the class. It contains member functions, variables that we have defined in the class. It occupies space in the memory. Different objects have different states or attributes, and behaviors.
+
+At the point of creation of a class, the description is the first object to be defined. An instance of a class exists in an object. Notably, the system does not allocate any memory space when a 
+
+Methods - These are functions that are defined inside a class that describe the behavior of an object. They are useful for re-usability or keeping functionality encapsulated inside one object at a time. Code re-usability is a great benefit when debugging.
+
+## Attributes 
+
+
 
