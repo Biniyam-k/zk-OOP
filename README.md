@@ -12,7 +12,7 @@ In basic terms, OOP is a programming pattern that is built around objects or ent
 
 OOP focuses on the objects that developers want to manipulate rather than the logic required to manipulate them. This approach to programming is well-suited for programs that are large, complex and actively updated or maintained. This includes programs for manufacturing and design, as well as mobile applications;
 
-![alt text]([https://www.freecodecamp.org/news/content/images/size/w1600/2022/09/OOP.png)
+![alt text](https://www.freecodecamp.org/news/content/images/size/w1600/2022/09/OOP.png)
 
 
 
