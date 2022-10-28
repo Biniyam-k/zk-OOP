@@ -28,11 +28,17 @@ A class is a blueprint or template of an object. It is a user-defined data type.
 These are instances of a class with specifically defined data. When a class is defined initially, the description is the only object that is defined.
 An object is a real-world entity that has attributes, behavior, and properties. It is referred to as an instance of the class. It contains member functions, variables that we have defined in the class. It occupies space in the memory. Different objects have different states or attributes, and behaviors.
 
-At the point of creation of a class, the description is the first object to be defined. An instance of a class exists in an object. Notably, the system does not allocate any memory space when a 
+At the point of creation of a class, the description is the first object to be defined. An instance of a class exists in an object. Notably, the system does not allocate any memory space when a class is specified, but it’s allocated when it is instantiated, i.e., when an object is formed. Real-world things have state and behavior in common, a pair of features. An object conceals its behavior through methods and keeps its information in attributes.
 
-Methods - These are functions that are defined inside a class that describe the behavior of an object. They are useful for re-usability or keeping functionality encapsulated inside one object at a time. Code re-usability is a great benefit when debugging.
+## Methods 
+
+These are functions that are defined inside a class that describe the behavior of an object. They are useful for re-usability or keeping functionality encapsulated inside one object at a time. Code re-usability is a great benefit when debugging.
+
 
 ## Attributes 
+
+are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself
+
 
 
 
