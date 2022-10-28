@@ -40,5 +40,9 @@ These are functions that are defined inside a class that describe the behavior o
 are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself
 
 
+![alt text](https://www.imaginarycloud.com/blog/content/images/2021/07/OOP_4p.png)
+
+
+
 
 
