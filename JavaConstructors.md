@@ -41,4 +41,4 @@ In Java, constructors can be divided into 3 types:
   ### 2 Parameterized Constructor:
   constructor can also accept one or more parameters. Such constructors are known as parameterized constructors (constructor with parameters).
   ### 3 Default Constructor
-  f we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program. This constructor is called default constructor.
+  If we do not create any constructor, the Java compiler automatically create a no-arg constructor during the execution of the program. This constructor is called default constructor.
